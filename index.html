@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frame & Flavour Visual Studio | Jalandhar</title>
+<meta name="description" content="Premium catering videography, food photography and cinematic event reels in Jalandhar. Shoots starting at ₹1000.">
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:#f8f5ef;color:#30251e;font-family:'DM Sans',sans-serif}
+:root{--cream:#f8f5ef;--brown:#30251e;--gold:#b18b56}
+nav{height:85px;display:flex;align-items:center;justify-content:space-between;padding:0 7%;background:var(--cream);position:sticky;top:0;z-index:10;border-bottom:1px solid #e5ddd1}
+.logo{font-family:'Playfair Display';font-size:23px;font-weight:700;line-height:1.1}
+.logo span{color:var(--gold)}
+.logo small{display:block;font-family:'DM Sans';font-size:9px;letter-spacing:4px;font-weight:500;margin-top:5px}
+nav a{color:var(--brown);text-decoration:none;margin-left:22px;font-size:12px;letter-spacing:1px}
+.hero{min-height:680px;display:flex;align-items:center;padding:90px 9%;background:linear-gradient(90deg,rgba(20,15,12,.85),rgba(20,15,12,.25)),url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1800&q=85') center/cover;color:white}
+.hero-content{max-width:720px}
+.tag{letter-spacing:4px;text-transform:uppercase;font-size:11px;color:#d6b47e}
+h1{font-family:'Playfair Display';font-size:clamp(48px,7vw,85px);line-height:1.1;margin:25px 0}
+.hero p{font-size:16px;line-height:1.9;color:#eee;max-width:520px}
+.btn{display:inline-block;background:var(--gold);color:white;text-decoration:none;padding:16px 27px;margin-top:30px;font-size:11px;letter-spacing:2px;text-transform:uppercase;transition:.3s}
+.btn:hover{background:#8f6b3e}
+.btn-outline{background:transparent;border:1px solid #c7a775}
+section{padding:95px 9%}
+.intro{text-align:center;max-width:780px;margin:auto}
+.section-tag{font-size:11px;color:var(--gold);letter-spacing:4px;text-transform:uppercase}
+h2{font-family:'Playfair Display';font-size:clamp(35px,5vw,55px);font-weight:500;margin:18px 0 25px}
+.intro p,.about-text p{color:#75695f;line-height:2;font-size:14px}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:50px}
+.service{background:white;padding-bottom:28px}
+.service img{width:100%;height:250px;object-fit:cover}
+.service h3{font-family:'Playfair Display';font-size:23px;margin:23px 22px 10px}
+.service p{margin:0 22px;color:#81756b;font-size:13px;line-height:1.9}
+.about{background:#30251e;color:white;display:grid;grid-template-columns:1fr 1fr;gap:65px;align-items:center}
+.about img{width:100%;height:450px;object-fit:cover}
+.about-text p{color:#d1c4b7}
+.about-text h2{color:white}
+.portfolio{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:40px}
+.portfolio img{width:100%;height:270px;object-fit:cover}
+.process{background:#eee7dc}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;margin-top:45px}
+.step{background:white;padding:32px}
+.step span{color:var(--gold);font-size:13px;letter-spacing:2px}
+.step h3{font-family:'Playfair Display';font-size:23px;margin:18px 0 12px}
+.step p{color:#81756b;font-size:13px;line-height:1.9}
+.pricing{text-align:center}
+.price-card{max-width:430px;margin:40px auto 0;padding:45px 30px;border:1px solid #d9c7ac;background:white}
+.price-card h3{font-family:'Playfair Display';font-size:27px}
+.price{font-family:'Playfair Display';font-size:58px;margin:22px 0;color:var(--brown)}
+.price small{font-family:'DM Sans';font-size:14px;color:#81756b}
+.price-card p{font-size:13px;line-height:2;color:#75695f}
+.contact{text-align:center;background:#30251e;color:white}
+.contact p{color:#d1c4b7;line-height:2}
+.contact .btn{margin:18px 7px 0}
+footer{background:#211a16;color:#c8b9a9;text-align:center;padding:35px 15px;font-size:12px;line-height:2}
+footer strong{color:white;font-family:'Playfair Display';font-size:21px}
+@media(max-width:700px){
+nav{height:72px;padding:0 5%}
+.logo{font-size:19px}
+nav .links{display:none}
+.hero{min-height:590px;padding:60px 7%}
+section{padding:70px 7%}
+.services,.steps{grid-template-columns:1fr}
+.about{grid-template-columns:1fr;gap:35px}
+.about img{height:300px}
+.portfolio{grid-template-columns:1fr 1fr;gap:9px}
+.portfolio img{height:180px}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">FRAME <span>&</span> FLAVOUR<small>VISUAL STUDIO</small></div>
+<div class="links">
+<a href="#home">HOME</a>
+<a href="#about">ABOUT</a>
+<a href="#services">SERVICES</a>
+<a href="#work">OUR WORK</a>
+<a href="#contact">CONTACT</a>
+</div>
+</nav>
+
+<header class="hero" id="home">
+<div class="hero-content">
+<div class="tag">FOOD · CATERING · EVENT VISUALS</div>
+<h1>You Create The Experience.<br>We Capture The Flavour.</h1>
+<p>We turn beautiful food, stunning catering setups and unforgettable celebrations into cinematic visual stories made for social media.</p>
+<a class="btn" href="#contact">BOOK YOUR SHOOT →</a>
+<a class="btn btn-outline" href="#work">EXPLORE OUR WORK</a>
+</div>
+</header>
+
+<section>
+<div class="intro">
+<div class="section-tag">WELCOME TO FRAME & FLAVOUR</div>
+<h2>Making Every Frame Worth Tasting.</h2>
+<p>We are a creative visual studio specialising in catering videography, food photography and cinematic event content. From beautifully presented dishes to grand buffet setups, we capture the details that make your business stand out.</p>
+</div>
+</section>
+
+<section id="services" style="padding-top:20px">
+<div class="intro">
+<div class="section-tag">WHAT WE DO</div>
+<h2>Our Creative Services</h2>
+<p>Visual content designed to make people stop scrolling and notice your work.</p>
+</div>
+<div class="services">
+<div class="service">
+<img src="https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=800&q=85" alt="Catering buffet">
+<h3>Catering Videography</h3>
+<p>Cinematic coverage of buffet setups, food counters, presentation and catering arrangements.</p>
+</div>
+<div class="service">
+<img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=85" alt="Food photography">
+<h3>Food Photography</h3>
+<p>Premium close-up shots capturing the textures, colours and details of your food.</p>
+</div>
+<div class="service">
+<img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=85" alt="Event videography">
+<h3>Event Reels</h3>
+<p>Creative short-form videos showcasing celebrations, events and your catering brand.</p>
+</div>
+</div>
+</section>
+
+<section class="about" id="about">
+<img src="https://images.unsplash.com/photo-1515003197210-e0cd7184f8b5?auto=format&fit=crop&w=1000&q=85" alt="Food visual production">
+<div class="about-text">
+<div class="section-tag">OUR VISION</div>
+<h2>More Than Just A Video.</h2>
+<p>At Frame & Flavour Visual Studio, we believe every dish has a story and every event has a moment worth capturing.</p>
+<p style="margin-top:18px">Our focus is on cinematic angles, beautiful lighting, detailed food shots and premium editing that helps catering businesses present their work professionally on social media.</p>
+<a class="btn" href="#contact">WORK WITH US →</a>
+</div>
+</section>
+
+<section id="work">
+<div class="intro">
+<div class="section-tag">OUR VISUAL WORLD</div>
+<h2>Frames That Speak.</h2>
+<p>A glimpse of the food, details and experiences we love capturing.</p>
+</div>
+<div class="portfolio">
+<img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=85" alt="Food presentation">
+<img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=700&q=85" alt="Drinks">
+<img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=700&q=85" alt="Food">
+<img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=700&q=85" alt="Dessert">
+<img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=700&q=85" alt="Restaurant">
+<img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=700&q=85" alt="Fine dining">
+</div>
+</section>
+
+<section class="process">
+<div class="intro">
+<div class="section-tag">SIMPLE & PROFESSIONAL</div>
+<h2>How It Works</h2>
+<p>From booking to your final visual content, we keep the process simple.</p>
+</div>
+<div class="steps">
+<div class="step">
+<span>01 / CONNECT</span>
+<h3>Tell Us About Your Event</h3>
+<p>Share your event date, location and the type of catering content you need.</p>
+</div>
+<div class="step">
+<span>02 / CREATE</span>
+<h3>We Shoot Your Setup</h3>
+<p>We visit your location and capture food, presentation and event details.</p>
+</div>
+<div class="step">
+<span>03 / DELIVER</span>
+<h3>Get Your Visuals</h3>
+<p>Your edited visual content is prepared for your social media presence.</p>
+</div>
+</div>
+</section>
+
+<section class="pricing">
+<div class="section-tag">SIMPLE PRICING</div>
+<h2>Premium Visuals. Affordable Shoots.</h2>
+<p>Give your catering business the visual attention it deserves.</p>
+<div class="price-card">
+<div class="section-tag">STARTING PRICE</div>
+<div class="price">₹1,000 <small>/ shoot</small></div>
+<h3>Visual Studio Shoot</h3>
+<p>Catering and food videography<br>Professional shooting<br>Creative visual content<br>Editing and deliverables discussed before booking</p>
+<a class="btn" href="https://wa.me/916239750615?text=Hello%20Frame%20%26%20Flavour%20Visual%20Studio%2C%20I%20want%20to%20book%20a%20shoot.">BOOK A SHOOT →</a>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="section-tag">LET'S CREATE TOGETHER</div>
+<h2>Ready To Get Your Catering Business Noticed?</h2>
+<p>Let's turn your food and catering setups into content people love watching.</p>
+<a class="btn" href="https://wa.me/916239750615?text=Hello%20Frame%20%26%20Flavour%20Visual%20Studio%2C%20I%20am%20interested%20in%20a%20shoot.">WHATSAPP US →</a>
+<a class="btn btn-outline" href="https://www.instagram.com/">INSTAGRAM →</a>
+</section>
+
+<footer>
+<strong>FRAME & FLAVOUR</strong>
+<p>VISUAL STUDIO · FOOD · CATERING · EVENT CONTENT</p>
+<p>Jalandhar, Punjab, India</p>
+<p>© 2026 Frame & Flavour Visual Studio. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
